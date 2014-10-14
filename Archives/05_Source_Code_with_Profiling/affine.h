@@ -1,0 +1,38 @@
+/********************************************//*
+*                AFFINE_H
+/*********************************************/
+
+#ifndef AFFINE_H
+#define AFFINE_H
+
+/************** Header Files *****************/
+
+#include "opencv2/highgui/highgui.hpp"
+#include "opencv2/imgproc/imgproc.hpp"
+#include <iostream>
+#include <cstdlib>
+
+#include <stdio.h>
+#include <unistd.h>
+#include <dirent.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include<sys/time.h>
+
+/**************** Namespace ******************/
+
+using namespace cv;
+using namespace std;
+
+/***************** Macros ********************/
+
+#define ISOTROPIC_SCALE_FACTOR 0
+#define ROTATION_ANGLE -180
+#define SOBEL_DEPTH CV_16S
+#define SOBEL_SCALE 1
+#define SOBEL_DELTA 0
+
+#endif // AFFINE_H //
+
+/*********************************************/

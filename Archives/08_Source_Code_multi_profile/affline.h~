@@ -1,0 +1,41 @@
+/********************************************//*
+*               MYBOOLEAN_H
+/*********************************************/
+
+#ifndef MYBOOLEAN_H
+#define MYBOOLEAN_H
+
+#define false 0
+#define true 1
+typedef int bool;
+
+#endif // MYBOOLEAN_H //
+
+/********************************************//*
+*                AFFLINE_H
+/*********************************************/
+
+#ifndef AFFLINE_H
+#define AFFLINE_H
+
+/************** Header Files *****************/
+
+#include "opencv2/highgui/highgui.hpp"
+#include "opencv2/imgproc/imgproc.hpp"
+#include <iostream>
+#include <cstdlib>
+#include <stdio.h>
+
+/**************** Namespace ******************/
+
+using namespace cv;
+using namespace std;
+
+/***************** Macros ********************/
+
+#define ISOTROPIC_SCALE_FACTOR 0.6
+#define ROTATION_ANGLE -50
+
+#endif // AFFLINE_H //
+
+/*********************************************/
